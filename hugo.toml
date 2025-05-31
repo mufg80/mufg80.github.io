@@ -1,4 +1,4 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'ePortfolio'
+title = "Welcome to Shannon Musgrave's Capstone Project for SNHU's CS 499"
 theme = 'ananke'
