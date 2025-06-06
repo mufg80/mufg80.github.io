@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" | default "100%" }}
+{{ $height := .Get "height" | default "400px" }}
+{{ $frameborder := .Get "frameborder" | default "0" }}
+{{ $allowfullscreen := .Get "allowfullscreen" | default "" }}
+
+<iframe src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" frameborder="{{ $frameborder }}" {{ if $allowfullscreen }}allowfullscreen{{ end }}></iframe>

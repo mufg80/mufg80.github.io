@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Welcome to Shannon Musgrave&#39;s Capstone Project for SNHU&#39;s CS 499</title>
+    <title>Posts on </title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Welcome to Shannon Musgrave&#39;s Capstone Project for SNHU&#39;s CS 499</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 May 2025 20:11:05 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jun 2025 03:43:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Code review</title>
-      <link>http://localhost:1313/posts/codereview/</link>
-      <pubDate>Fri, 30 May 2025 20:11:05 -0500</pubDate>
-      <guid>http://localhost:1313/posts/codereview/</guid>
-      <description>&lt;p&gt;This is my code review, follow the link.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://1drv.ms/v/c/d9eb0345ea3789f7/EYRtp5UBkvVFqO-vOBqcb5YBM8KXWmKK6oVQpdBAG6dwgQ?e=MTtspM&#34;&gt;Code Review&lt;/a&gt; file.&lt;/p&gt;</description>
+      <title>Enhancement1</title>
+      <link>http://localhost:1313/posts/enhancement1/</link>
+      <pubDate>Fri, 06 Jun 2025 03:42:43 -0500</pubDate>
+      <guid>http://localhost:1313/posts/enhancement1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enhancement3</title>
+      <link>http://localhost:1313/posts/enhancement3/</link>
+      <pubDate>Fri, 06 Jun 2025 03:43:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/enhancement3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enhancement2</title>
+      <link>http://localhost:1313/posts/enhancement2/</link>
+      <pubDate>Fri, 06 Jun 2025 03:42:57 -0500</pubDate>
+      <guid>http://localhost:1313/posts/enhancement2/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
