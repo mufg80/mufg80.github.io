@@ -1,12 +1,13 @@
 +++
 date = '2025-05-30T20:55:01-05:00'
 draft = false
-title = 'Shannon Musgrave'
-description = "Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)"
+title = ''
+description = ""
 featured_image = "/images/rainbow.jpg"
-
+omit_header_text = true
 +++
-
+# Shannon Musgrave
+Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)
 ## **Self Assessment**
 Through my coursework, I have demonstrated proficiency in computer science core principles, such as software design and engineering, algorithms, data structures, and databases. I am proficient in Object Oriented Programming in languages such as C++ and Java. I also excel in collaborative environments through excellent communication and utilization of version control, such as Git. My professional experience has allowed me to hone my communication skills with stakeholders, enabling me to validate and verify requirements and to provide updates on current projects. Projects included in my portfolio prove these proficiencies.
 
