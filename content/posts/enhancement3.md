@@ -28,3 +28,7 @@ See the original artifact here [CS360 Mobile Architecture](https://github.com/mu
 See the enhancement here [CS360 Mobile Architecture Enhancement](https://github.com/mufg80/CS360_InventoryApp_Enhancement3)
 
 See the RESTFul Service here [CS360 Remote Server Web API](https://github.com/mufg80/InventoryAppRemoteAPI)
+
+## **Code Review**
+
+{{< youtube XTElaa1ZQeg >}}

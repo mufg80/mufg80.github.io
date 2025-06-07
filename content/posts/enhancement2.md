@@ -24,3 +24,6 @@ See the original artifact here [ABCUapp](https://github.com/mufg80/CS300_ABCU_Ap
 
 See the enhancement here [ABCUApp Enhanced](https://github.com/mufg80/CS300_Enhancement2)
 
+## **Code Review**
+
+{{< youtube u8fgrFfOLN8 >}}
