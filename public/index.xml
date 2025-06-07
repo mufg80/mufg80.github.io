@@ -9,25 +9,25 @@
     <lastBuildDate>Fri, 06 Jun 2025 03:43:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Enhancement 1</title>
+      <title>Software Engineering Enhancement</title>
       <link>http://localhost:1313/posts/enhancement1/</link>
       <pubDate>Fri, 06 Jun 2025 03:42:43 -0500</pubDate>
       <guid>http://localhost:1313/posts/enhancement1/</guid>
-      <description>&lt;h2 id=&#34;c-gui-implementation&#34;&gt;C# GUI Implementation&lt;/h2&gt;</description>
+      <description>&lt;h3 id=&#34;c-graphical-user-interface-implementation&#34;&gt;C# Graphical User Interface Implementation&lt;/h3&gt;</description>
     </item>
     <item>
-      <title>Enhancement 2</title>
+      <title>Data Structures and Algorithms Enhancement</title>
       <link>http://localhost:1313/posts/enhancement2/</link>
       <pubDate>Fri, 06 Jun 2025 03:42:57 -0500</pubDate>
       <guid>http://localhost:1313/posts/enhancement2/</guid>
-      <description>&lt;h2 id=&#34;binary-search-tree-implementation&#34;&gt;Binary Search Tree Implementation&lt;/h2&gt;</description>
+      <description>&lt;h3 id=&#34;binary-search-tree-implementation&#34;&gt;Binary Search Tree Implementation&lt;/h3&gt;</description>
     </item>
     <item>
-      <title>Enhancement3</title>
+      <title>Database Enhancement</title>
       <link>http://localhost:1313/posts/enhancement3/</link>
       <pubDate>Fri, 06 Jun 2025 03:43:00 -0500</pubDate>
       <guid>http://localhost:1313/posts/enhancement3/</guid>
-      <description>&lt;h2 id=&#34;android-mobile-device-restful-service&#34;&gt;Android Mobile Device RESTFul Service&lt;/h2&gt;</description>
+      <description>&lt;h3 id=&#34;android-mobile-device-restful-service-implementation&#34;&gt;Android Mobile Device RESTFul Service Implementation&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>
