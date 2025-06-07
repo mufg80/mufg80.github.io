@@ -3,6 +3,7 @@ date = '2025-06-06T03:42:57-05:00'
 draft = true
 title = 'Data Structures and Algorithms Enhancement'
 weight = 3
+featured_image = "/images/rainbow.jpg"
 +++
 ### Binary Search Tree Implementation
 

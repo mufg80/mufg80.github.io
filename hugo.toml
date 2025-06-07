@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = ""
 theme = 'ananke'
 [params]
+baseURL = 'https://mufg80.github.io/'
 text_color = ""
 author = "Shannon Musgrave"
 featured_image = "/images/rainbow.jpg"
