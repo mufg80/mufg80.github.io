@@ -4,7 +4,8 @@ draft = true
 title = 'Software Engineering Enhancement'
 weight = 2
 featured_image = "/images/enhancepic1.png"
-cover_dimming_class = "bg-black-20"
+cover_dimming_class = "bg-white-10"
+omit_header_text = true
 +++
 ### C# Graphical User Interface Implementation
 

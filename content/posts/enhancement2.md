@@ -4,7 +4,8 @@ draft = true
 title = 'Data Structures and Algorithms Enhancement'
 weight = 3
 featured_image = "/images/enhancepic2.png"
-cover_dimming_class = "bg-black-30"
+cover_dimming_class = "bg-white-10"
+omit_header_text = true
 +++
 ### Binary Search Tree Implementation
 

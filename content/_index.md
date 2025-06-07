@@ -4,7 +4,7 @@ draft = true
 title = 'Shannon Musgrave'
 description = "Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)"
 featured_image = "/images/rainbow.jpg"
-cover_dimming_class = "bg-black-10"
+
 +++
 
 ## **Self Assessment**

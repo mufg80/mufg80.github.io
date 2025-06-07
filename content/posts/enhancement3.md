@@ -4,7 +4,8 @@ draft = true
 title = 'Database Enhancement'
 weight = 4
 featured_image = "/images/enhance3pic.png"
-cover_dimming_class = "bg-black-30"
+cover_dimming_class = "bg-white-10"
+omit_header_text = true
 +++
 ### Android Mobile Device RESTFul Service Implementation
 
