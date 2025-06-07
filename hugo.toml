@@ -5,7 +5,7 @@ theme = 'ananke'
 [params]
 text_color = ""
 author = "Shannon Musgrave"
-
+featured_image = "/images/rainbow.jpg"
 favicon = ""
 site_logo = ""
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
