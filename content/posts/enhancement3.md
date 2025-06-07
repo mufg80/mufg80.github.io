@@ -3,7 +3,7 @@ date = '2025-06-06T03:43:00-05:00'
 draft = true
 title = 'Database Enhancement'
 weight = 4
-featured_image = "/images/rainbow.jpg"
+featured_image = "/images/enhance3pic.png"
 +++
 ### Android Mobile Device RESTFul Service Implementation
 

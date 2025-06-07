@@ -3,7 +3,7 @@ date = '2025-06-06T03:42:43-05:00'
 draft = true
 title = 'Software Engineering Enhancement'
 weight = 2
-featured_image = "/images/rainbow.jpg"
+featured_image = "/images/enhancepic1.png"
 +++
 ### C# Graphical User Interface Implementation
 
