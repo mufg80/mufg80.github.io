@@ -8,7 +8,7 @@ favicon = ""
 site_logo = ""
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 cover_dimming_class = "bg-black-20"
-body_classes = "sans serif bg-washed-blue"
+body_classes = "times bg-washed-blue"
 post_content_classes = "times"
 text_color = "bg-washed-blue"
 omit_header_text = false
