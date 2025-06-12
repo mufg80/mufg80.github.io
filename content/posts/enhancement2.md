@@ -3,7 +3,7 @@ date = '2025-06-06T03:42:57-05:00'
 draft = false
 title = 'Data Structures and Algorithms Enhancement'
 weight = 3
-featured_image = "/images/enhancepic2.png"
+featured_image = "/images/enhancement2.png"
 cover_dimming_class = "bg-white-10"
 omit_header_text = true
 +++

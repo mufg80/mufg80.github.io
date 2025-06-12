@@ -3,7 +3,7 @@ date = '2025-06-06T03:42:43-05:00'
 draft = false
 title = 'Software Engineering Enhancement'
 weight = 2
-featured_image = "/images/enhancepic1.png"
+featured_image = "/images/enhancement1.png"
 cover_dimming_class = "bg-white-10"
 omit_header_text = true
 +++

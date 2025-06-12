@@ -3,7 +3,7 @@ date = '2025-06-06T03:43:00-05:00'
 draft = false
 title = 'Database Enhancement'
 weight = 4
-featured_image = "/images/enhancepic3.png"
+featured_image = "/images/enhancement3.png"
 cover_dimming_class = "bg-white-10"
 omit_header_text = true
 +++
