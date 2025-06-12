@@ -9,15 +9,11 @@ omit_header_text = true
 +++
 ### Android Mobile Device RESTFul Service Implementation
 
-
-
 <!--more-->
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;The artifact selected for this enhancement is an Android Studio application designed to manage inventory on a mobile device. The program features a login screen that allows users to register as new users and/or log in. After successful login, a main screen displays a list of inventory items, with each line showing the item’s name, description, and quantity. Additionally, each item includes three buttons for incrementing, decrementing, or deleting the item. The application uses SQLite, a serverless, lightweight, and self-contained Structured Query Language (SQL) database tailored for mobile device limitations. SQLite’s advantages ensure a seamless user experience while meeting mobile device constraints. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Created in CS-360 Mobile Architecture & Programming at the end of 2024, this artifact was an ideal enhancement candidate, particularly through the integration of a remote database, which addressed the limitations of data storage on a mobile device. While SQLite is effective, it has inherent constraints that a remote server and Representational State Transfer (RESTful) service can overcome, adding significant value to the application in three significant ways:
-
 
 - A remote server offers substantially more storage capacity than a mobile device, allowing users to preserve device memory for personal use. Applications that consume excessive memory face the risk of user deletion, so this enhancement increases the application’s appeal. 
 
@@ -26,7 +22,6 @@ omit_header_text = true
 - A server allows administrators to manage backups and data recovery, tasks often neglected by users, ensuring data preservation. 
 
 - This enhancement modifies the database schema to allow users to query only their own items, making the application more versatile and user specific. Instead of sharing the same inventory of wall items for editing or deletion, a limitation of the original application, users can query the items specific to their respective work.
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;All planned enhancements were successfully implemented in this milestone. A remote Microsoft SQL Server was established, accessible through a RESTful service built using Microsoft’s Active Server Pages (ASP) framework, with database operations and Hypertext Transfer Protocol Secure (HTTPS) requests written in C#. The Android Studio project was updated as planned: The partially implemented text messaging functionality was removed, and items with zero quantity now trigger an on-screen notification. A toggle button was added to the menu, enabling users to switch between local and remote unsynchronized databases, allowing distinct items to be stored in each. The SQLite database was also modified to include a foreign key in the items table, linking each item to a specific user, enabling user-specific queries. Additionally, code was added to query the remote database via the RESTful service, refreshing the inventory view with the appropriate data when the database toggle is switched. 
 
@@ -44,9 +39,6 @@ omit_header_text = true
 
 &nbsp;&nbsp;&nbsp;&nbsp;Additionally and equally important were the SQL instructions needed to configure the server database. Unique instructions rarely used, such as table creation and adding SQL server authentication, required research. Configuration of the SQL authentication allowed the web API to use a connection string allowing for only read and write access to the database, following the principle of least privilege for greater security. These efforts and others deepened expertise in tools like Swagger, Microsoft SQL Server Management Studio, Visual Studio, and Android Studio, equipping me with valuable skills for future projects.
  
-
-
-
 See the original artifact here [CS360 Mobile Architecture](https://github.com/mufg80/CS360_Mobile_Architecture_Programming)
 
 See the enhancement here [CS360 Mobile Architecture Enhancement](https://github.com/mufg80/CS360_InventoryApp_Enhancement3)

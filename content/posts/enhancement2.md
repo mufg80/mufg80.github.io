@@ -9,10 +9,7 @@ omit_header_text = true
 +++
 ### Binary Search Tree Implementation
 
-
-
 <!--more-->
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;The artifact selected for enhancement was a console application written in C++ for CS 300 Data Structures and Algorithms, completed last year (2024). It represents an important milestone in applying fundamental data structures and algorithms to real-world problems. Originally built with a vector-based approach, the program excelled in sorting and searching static data but was inefficient for dynamic environments. This limitation made it an ideal candidate for enhancement, offering an opportunity to study algorithmic efficiency while managing the trade-offs of different data structures. 
 
@@ -24,7 +21,6 @@ omit_header_text = true
 
 &nbsp;&nbsp;&nbsp;&nbsp;Beyond technical improvements, the enhancement addressed outcome two: “Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.” This outcome was partially met through several actions:
 
-
 - Comprehensive in-line code comments were added, describing functions, fields, and key code segments. Care was taken to avoid stating the obvious and instead highlighted overarching goals, such as input validation logic. 
 
 - Headers were added to all four source code files to clarify the intention of each file. 
@@ -32,7 +28,6 @@ omit_header_text = true
 - A readme was created using a markup file, adapted from the template learned in CS 340 Client/Server Development. This readme addresses common informational needs in a GitHub repository, such as installation and “getting started” instructions, and includes C++ code examples and application screenshots for clarity. To complement this, a UML (Unified Modeling Language) class diagram was developed, illustrating the binary search tree and node classes as well as the course structure.
 
 - An instruction manual was created for non-technical stakeholders, such as students and advisors at ABC University, providing easy-to-understand instructions to assist with application use. These documents are stored in the repository’s documentation folder. 
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;This enhancement successfully met the course outcome outlined in Module One: “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms).” 
 

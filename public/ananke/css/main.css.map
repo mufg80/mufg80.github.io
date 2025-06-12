@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/mufg8/source/hugorepos/mufg80.github.io",
+	"sourceRoot": "C:/Users/smufg/source/HugoRepos/quickstart",
 	"sources": [
 		"ananke/css/main.css"
 	],
