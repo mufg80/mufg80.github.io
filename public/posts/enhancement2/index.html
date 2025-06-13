@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -11,13 +11,13 @@
     
     
     
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="noindex, nofollow">
     
     <meta name="author" content="Shannon Musgrave">
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
 
 
 
@@ -33,10 +33,10 @@
     
 
     
-      <link rel="canonical" href="https://mufg80.github.io/posts/enhancement2/">
+      <link rel="canonical" href="http://localhost:1313/posts/enhancement2/">
     
 
-    <meta property="og:url" content="https://mufg80.github.io/posts/enhancement2/">
+    <meta property="og:url" content="http://localhost:1313/posts/enhancement2/">
   <meta property="og:title" content="Data Structures and Algorithms Enhancement">
   <meta property="og:description" content="Binary Search Tree Implementation">
   <meta property="og:locale" content="en_us">
@@ -54,10 +54,8 @@
   <meta name="twitter:title" content="Data Structures and Algorithms Enhancement">
   <meta name="twitter:description" content="Binary Search Tree Implementation">
 
-      
-    
 	
-  </head><body class="ma0 times bg-washed-blue production">
+  </head><body class="ma0 times bg-washed-blue development">
 
     
    
@@ -66,7 +64,7 @@
   
   
   
-  <header class="cover bg-center" style="background-image: url('https://mufg80.github.io/images/enhancement2.png');">
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/images/enhancement2.png');">
     <div class="bg-white-10">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
@@ -117,34 +115,149 @@
       
     </header>
     <div class="nested-copy-line-height lh-copy times f4 nested-links bg-washed-blue pr4-l w-two-thirds-l"><h3 id="binary-search-tree-implementation">Binary Search Tree Implementation</h3>
-<p>    The artifact selected for enhancement was a console application written in C++ for CS-300 Data Structures and Algorithms, completed in 2024. It represents an important milestone in applying fundamental data structures and algorithms to real-world problems. Originally built with a vector-based approach, the program excelled in sorting and searching static data but was inefficient for dynamic environments. This limitation made it an ideal candidate for enhancement, offering an opportunity to study algorithmic efficiency while managing the trade-offs of different data structures.</p>
-<p>    The application originally featured a menu that loaded a text file into memory as a list of college courses. Users could display a single course, view courses in sorted order, or exit the program. A C++ vector was used to store the list, leveraging quicksort and binary search algorithms to efficiently sort and retrieve data. However, the vector structure was suboptimal for frequent insertions, as adding elements, especially near the beginning, required the shifting of subsequent elements and resulted in O(n) time complexity in the worst case. By contrast, appending items to the end of the vector is O(1) but does not maintain the list’s sorted order.</p>
-<p>    The program’s efficiency in a static environment was strong, with quicksort averaging O(n log n) complexity and binary search running at O(log n) complexity. However, frequent insertions caused the need for re-sorting, which diminished the structure’s viability in dynamic scenarios. To optimize insertion efficiency, a binary search tree (BST) was implemented, offering O(log n) insertion and search time complexity while maintaining sorted order. Unlike the vector, an in-order traversal of the BST automatically produces a sorted list without requiring repeated sorting operations. To further enhance performance, automatic rebalancing was introduced to prevent degradation in unbalanced trees. Although rebalancing has O(n) complexity, it occurs significantly less frequently than the vector’s mandatory quicksort re-sorting, making it a worthwhile trade-off for managing dynamic data.</p>
-<p>    This enhancement shows proficiency in algorithms and data structures because it required the development of a custom BST and associated algorithms. To achieve this, a node class was created to store course information as well as a binary tree class to manage parent/child relationships. Additionally, algorithms for depth-first traversal, tree rebalancing, and insertion were developed to optimize data handling. Furthermore, data validation was rewritten for the BST, ensuring that each course object included an ID, description, and a list of prerequisites, all of which were verified against existing courses in memory. Finally, the enhancement refined algorithmic recursion skills, as many tree operations such as depth-first search, node insertion, height calculation, and tree clearing relied on recursive functions. Implementing these algorithms deepened the understanding of recursion, function calls, and pointer management.</p>
-<p>    Beyond technical improvements, the enhancement addressed outcome two: “Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.” This outcome was met through several actions:</p>
-<ul>
-<li>
-<p>Comprehensive in-line code comments were added, describing functions, fields, and key code segments. Care was taken to avoid stating the obvious and instead highlighted overarching goals, such as input validation logic.</p>
+<p><div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;The artifact selected for enhancement was a console application written in C++ for CS-300 Data Structures and Algorithms, completed in 2024. It represents an important milestone in applying fundamental data structures and algorithms to real-world problems. Originally built with a vector-based approach, the program excelled in sorting and searching static data but was inefficient for dynamic environments. This limitation made it an ideal candidate for enhancement, offering an opportunity to study algorithmic efficiency while managing the trade-offs of different data structures. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;The application originally featured a menu that loaded a text file into memory as a list of college courses. Users could display a single course, view courses in sorted order, or exit the program. A C++ vector was used to store the list, leveraging quicksort and binary search algorithms to efficiently sort and retrieve data. However, the vector structure was suboptimal for frequent insertions, as adding elements, especially near the beginning, required the shifting of subsequent elements and resulted in O(n) time complexity in the worst case. By contrast, appending items to the end of the vector is O(1) but does not maintain the list’s sorted order. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;The program’s efficiency in a static environment was strong, with quicksort averaging O(n log n) complexity and binary search running at O(log n) complexity. However, frequent insertions caused the need for re-sorting, which diminished the structure’s viability in dynamic scenarios. To optimize insertion efficiency, a binary search tree (BST) was implemented, offering O(log n) insertion and search time complexity while maintaining sorted order. Unlike the vector, an in-order traversal of the BST automatically produces a sorted list without requiring repeated sorting operations. To further enhance performance, automatic rebalancing was introduced to prevent degradation in unbalanced trees. Although rebalancing has O(n) complexity, it occurs significantly less frequently than the vector’s mandatory quicksort re-sorting, making it a worthwhile trade-off for managing dynamic data. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;This enhancement shows proficiency in algorithms and data structures because it required the development of a custom BST and associated algorithms. To achieve this, a node class was created to store course information as well as a binary tree class to manage parent/child relationships. Additionally, algorithms for depth-first traversal, tree rebalancing, and insertion were developed to optimize data handling. Furthermore, data validation was rewritten for the BST, ensuring that each course object included an ID, description, and a list of prerequisites, all of which were verified against existing courses in memory. Finally, the enhancement refined algorithmic recursion skills, as many tree operations such as depth-first search, node insertion, height calculation, and tree clearing relied on recursive functions. Implementing these algorithms deepened the understanding of recursion, function calls, and pointer management. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;Beyond technical improvements, the enhancement addressed outcome two: “Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.” This outcome was met through several actions:
+
+
+</div>
+<br>
+
+
+<div style="text-align: justify;">
+  <ul>
+    <li>
+
+Comprehensive in-line code comments were added, describing functions, fields, and key code segments. Care was taken to avoid stating the obvious and instead highlighted overarching goals, such as input validation logic.
+
 </li>
-<li>
-<p>Headers were added to all four source code files to clarify the intention of each file.</p>
+  </ul>
+</div>
+
+
+<div style="text-align: justify;">
+  <ul>
+    <li>
+
+Headers were added to all four source code files to clarify the intention of each file.
+
 </li>
-<li>
-<p>A README was created using a markup file, adapted from the template learned in CS 340 Client/Server Development. This README addresses common informational needs in a GitHub repository, such as installation and “getting started” instructions, and includes C++ code examples and application screenshots for clarity.</p>
+  </ul>
+</div>
+
+
+<div style="text-align: justify;">
+  <ul>
+    <li>
+
+A README was created using a markup file, adapted from the template learned in CS 340 Client/Server Development. This README addresses common informational needs in a GitHub repository, such as installation and “getting started” instructions, and includes C++ code examples and application screenshots for clarity. 
+
 </li>
-<li>
-<p>A Unified Modeling Language (UML) class diagram was developed, illustrating the binary search tree and node classes as well as the course structure.</p>
+  </ul>
+</div>
+
+
+<div style="text-align: justify;">
+  <ul>
+    <li>
+
+A Unified Modeling Language (UML) class diagram was developed, illustrating the binary search tree and node classes as well as the course structure.
+
 </li>
-<li>
-<p>An instruction manual was created for non-technical stakeholders, such as students and advisors at ABC University, providing easy-to-understand instructions to assist with application use. These documents are stored in the repository’s documentation folder.</p>
+  </ul>
+</div>
+
+
+<div style="text-align: justify;">
+  <ul>
+    <li>
+
+An instruction manual was created for non-technical stakeholders, such as students and advisors at ABC University, providing easy-to-understand instructions to assist with application use. These documents are stored in the repository’s documentation folder.
+
 </li>
-</ul>
-<p>    This enhancement successfully met the course outcome outlined in Module One: “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.”</p>
-<p>    The analysis of trade-offs and performance was demonstrated through a vector versus BST comparison, weighing insertion efficiency against rebalancing costs. The implementation of recursion was critical for the tree’s traversal, insertions, and height calculations, improving algorithm efficiency while reinforcing recursive problem-solving skills. Memory management was enhanced by introducing unique pointers to ensure safe memory allocation and ownership handling, eliminating potential leaks and improving stability.</p>
-<p>    The manual development of the BST from scratch required designing node relationships, recursive functions, and validation logic, going far beyond the basic use of C++ vectors. Moreover, the BST class is properly encapsulated, exposing only a few public functions while keeping most of its inner workings private to protect its state. As a result, the program became responsive to dynamic data needs, supporting real-time course additions while maintaining sorted order without expensive re-sorting, thus improving usability and adaptability for evolving datasets.</p>
-<p>    More complex than anticipated, the enhancement process presented several challenges. One significant challenge was ensuring memory safety by using modern C++ practices, such as, replacing raw pointers with unique pointers. While they improved safety, their ownership model introduced a learning curve, requiring additional node class functions to manage ownership transfers properly. Recursive functions also required strategic adjustments, such as using references instead of return values, which simplified algorithm logic and improved efficiency by minimizing unnecessary argument passing.</p>
-<p>    Additionally, analyzing trade-offs between vectors and BSTs deepened the understanding of Big O notation, highlighting the benefits and limitations of each structure in dynamic environments. By designing a dedicated BST header and implementation file, the project became more readable, modular, and significantly easier to debug.</p>
-<p>    Beyond meeting course objectives, this project reinforced industry-relevant skills in designing scalable solutions and their accompanying documentation. The challenges, particularly in mastering recursion and memory management, led to a greater understanding of programming techniques, enhancing both theoretical knowledge and practical implementation. Ultimately, this enhancement serves as a testament to growth in algorithmic problem-solving, computational efficiency, and professional coding practices, valuable assets for future technical endeavors.</p>
+  </ul>
+</div>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;This enhancement successfully met the course outcome outlined in Module One: “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.” 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;The analysis of trade-offs and performance was demonstrated through a vector versus BST comparison, weighing insertion efficiency against rebalancing costs. The implementation of recursion was critical for the tree’s traversal, insertions, and height calculations, improving algorithm efficiency while reinforcing recursive problem-solving skills. Memory management was enhanced by introducing unique pointers to ensure safe memory allocation and ownership handling, eliminating potential leaks and improving stability.
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;The manual development of the BST from scratch required designing node relationships, recursive functions, and validation logic, going far beyond the basic use of C++ vectors. Moreover, the BST class is properly encapsulated, exposing only a few public functions while keeping most of its inner workings private to protect its state. As a result, the program became responsive to dynamic data needs, supporting real-time course additions while maintaining sorted order without expensive re-sorting, thus improving usability and adaptability for evolving datasets. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;More complex than anticipated, the enhancement process presented several challenges. One significant challenge was ensuring memory safety by using modern C++ practices, such as, replacing raw pointers with unique pointers. While they improved safety, their ownership model introduced a learning curve, requiring additional node class functions to manage ownership transfers properly. Recursive functions also required strategic adjustments, such as using references instead of return values, which simplified algorithm logic and improved efficiency by minimizing unnecessary argument passing. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;Additionally, analyzing trade-offs between vectors and BSTs deepened the understanding of Big O notation, highlighting the benefits and limitations of each structure in dynamic environments. By designing a dedicated BST header and implementation file, the project became more readable, modular, and significantly easier to debug. 
+
+
+</div>
+<br>
+<div style="text-align: justify;">
+  
+
+&nbsp;&nbsp;&nbsp;&nbsp;Beyond meeting course objectives, this project reinforced industry-relevant skills in designing scalable solutions and their accompanying documentation. The challenges, particularly in mastering recursion and memory management, led to a greater understanding of programming techniques, enhancing both theoretical knowledge and practical implementation. Ultimately, this enhancement serves as a testament to growth in algorithmic problem-solving, computational efficiency, and professional coding practices, valuable assets for future technical endeavors.
+
+
+</div>
+<br></p>
 <p>See the original artifact here <a href="https://github.com/mufg80/CS300_ABCU_App">ABCUapp</a></p>
 <p>See the enhancement here <a href="https://github.com/mufg80/CS300_Enhancement2">ABCUApp Enhanced</a></p>
 <h2 id="code-review"><strong>Code Review</strong></h2>
@@ -171,7 +284,7 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://mufg80.github.io/" >
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
     &copy; 
   </a>
     <div><div class="ananke-socials"></div>

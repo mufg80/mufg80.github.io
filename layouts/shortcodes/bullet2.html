@@ -1,0 +1,24 @@
+<div style="text-align: justify;">
+  <ul>
+    <li>
+      {{- $content := .Inner -}}
+      {{- $words := split $content " " -}}
+      {{- $firstThreeWords := "" -}}
+      {{- $rest := "" -}}
+      {{- if ge (len $words) 3 -}}
+        {{- $firstThreeWords = printf "%s %s %s" (index $words 0) (index $words 1) (index $words 2) -}}
+        {{- $rest = replace $content $firstThreeWords "" 1 -}}
+      {{- else if eq (len $words) 2 -}}
+        {{- $firstThreeWords = printf "%s %s" (index $words 0) (index $words 1) -}}
+        {{- $rest = "" -}}
+      {{- else if eq (len $words) 1 -}}
+        {{- $firstThreeWords = index $words 0 -}}
+        {{- $rest = "" -}}
+      {{- else -}}
+        {{- $firstThreeWords = "" -}}
+        {{- $rest = $content -}}
+      {{- end -}}
+      <strong>{{ $firstThreeWords }}</strong>{{ $rest }}
+    </li>
+  </ul>
+</div>
