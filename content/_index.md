@@ -6,7 +6,6 @@ description = "ePortfolio"
 featured_image = "/images/rainbow.jpg"
 omit_header_text = false
 +++
-# 
 Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)
 ## **Self Assessment**
 
