@@ -98,4 +98,6 @@ See the enhancement here [ABCUApp Enhanced](https://github.com/mufg80/CS300_Enha
 
 ## **Code Review**
 
-{{<youtube u8fgrFfOLN8>}}
+{{<artifact2>}}
+Code review for enhancement 2
+{{</artifact2>}}

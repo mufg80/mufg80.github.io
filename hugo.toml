@@ -11,7 +11,7 @@ cover_dimming_class = "bg-black-20"
 body_classes = "times bg-washed-blue"
 post_content_classes = "times"
 text_color = "bg-washed-blue"
-omit_header_text = false
+omit_header_text = true
 
 [module]
 [[module.imports]]

@@ -1,12 +1,12 @@
 +++
 date = '2025-05-30T20:55:01-05:00'
 draft = false
-title = ''
-description = ""
+title = 'Shannon Musgrave'
+description = "ePortfolio"
 featured_image = "/images/rainbow.jpg"
-omit_header_text = true
+omit_header_text = false
 +++
-# Shannon Musgrave
+# 
 Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)
 ## **Self Assessment**
 
@@ -74,4 +74,6 @@ Artifact 3: I enhanced an Android mobile application by integrating a remote Mic
 
 ## **Code Review**
 
-{{<youtube YdYlNpZTLbQ>}}
+{{<videocodereview  >}}
+Code review for CS-499 artifacts
+{{</videocodereview >}}
