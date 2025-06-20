@@ -1,13 +1,4 @@
-<!-- <div style="text-align: justify;">
-  <ul>
-    <li>{{- $content := .Inner -}}
-      {{- $firstWord := index (split $content " ") 0 -}}
-      {{- $rest := replace $content $firstWord "" 1 -}}
-      <strong>{{ $firstWord }}</strong>{{ $rest }}</li>
-  </ul>
-</div> -->
-
-<div style="text-align: left; line-height: 1.5">
+<div style="text-align: justify; line-height: 1.5">
   <ul>
     <li>{{.Inner}}</li>
   </ul>

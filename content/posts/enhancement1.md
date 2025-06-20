@@ -23,7 +23,7 @@ omit_header_text = true
 {{</paragraph>}}
 {{<paragraph>}}
 
-&nbsp;&nbsp;&nbsp;&nbsp;The enhancement process demonstrated several software development skills by translating it into a new programming language and application type and requiring the application’s functionality to be reapplied in a GUI. The console application was transformed into a C# Windows Presentation Foundation (WPF) desktop application, replacing the original console menu with an event driven visual element. Additionally, functionality was improved, for example, user authentication previously reliant on only a hardcoded password now required both a username and password for stronger security. The password, hashed through the Secure Hash Algorithm 256-bit(SHA-256) algorithm and encrypted with the Advanced Encryption Standard (AES), is saved to the hard disk for persistence.
+&nbsp;&nbsp;&nbsp;&nbsp;The enhancement process demonstrated several software development skills by translating it into a new programming language and application type and requiring the application’s functionality to be reapplied in a GUI. The console application was transformed into a C# Windows Presentation Foundation (WPF) desktop application, replacing the original console menu with an event-driven visual element. Additionally, functionality was improved; for example, user authentication previously reliant on only a hardcoded password now required both a username and password for stronger security. The password, hashed through the Secure Hash Algorithm 256-bit(SHA-256) algorithm and encrypted with the Advanced Encryption Standard (AES), is saved to the hard disk for persistence.
 
 {{</paragraph>}}
 {{<paragraph>}}
@@ -33,7 +33,7 @@ omit_header_text = true
 {{</paragraph>}}
 {{<paragraph>}}
 
-&nbsp;&nbsp;&nbsp;&nbsp;In summary, the enhancements improved user experience, security, persistence, and functionality. The goal of this project was to meet the course outcome: “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals.” This was achieved through several key improvements aligned with industry standards and modern software engineering practices: 
+&nbsp;&nbsp;&nbsp;&nbsp;In summary, the enhancements improved user experience, functionality, security, and persistence. The goal of this project was to meet the course outcome: “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals.” This was achieved through several key improvements aligned with industry standards and modern software engineering practices: 
 
 {{</paragraph>}}
 {{<bullet>}}
@@ -41,6 +41,7 @@ omit_header_text = true
 Transitioning from a console-based application to a C# WPF application with a GUI showcased the use of tools like XAML (Extensible Application Markup Language) to enhance user experience and meet contemporary expectations. 
 
 {{</bullet>}}
+
 {{<bullet>}}
 
 Adopting the MVVM architecture further demonstrated sound software design principles, promoting maintainability, testability, and scalability through the separation of concerns. 
@@ -78,7 +79,7 @@ Adding data persistence through disk storage and enabling the creation, deletion
 {{</paragraph>}}
 {{<paragraph>}}
 
-&nbsp;&nbsp;&nbsp;&nbsp;Unforeseen challenges arose during development, including encryption issues, input validation, and missing properties. For instance, a new property, IsAdmin, had to be added to the user model to restrict account addition and removal to a single administrative account. Input validation to enforce unique usernames was overlooked initially and had to be added later. The most challenging aspect was serializing two data structures, a list of accounts, and a list of users, into a single string for storage. Key lessons learned included working with declarative markup languages for the views, implementing data binding and events in the view models, and mastering encryption and serialization in the models.
+&nbsp;&nbsp;&nbsp;&nbsp;Unforeseen challenges arose during development, including encryption issues, input validation, and missing properties. For instance, a new property, IsAdmin, had to be added to the user model to restrict account addition and removal to a single administrative account. Input validation to enforce unique usernames was overlooked initially and had to be added later. The most challenging aspect was serializing two data structures, a list of accounts, and a list of users into a single string for storage. Key lessons learned included working with declarative markup languages for the views, implementing data binding and events in the view models, and mastering encryption and serialization in the models.
 
 {{</paragraph>}}
 
