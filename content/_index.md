@@ -7,6 +7,19 @@ featured_image = "/images/rainbow.jpg"
 omit_header_text = false
 +++
 Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)
+## **Introduction**
+{{<paragraph>}}
+
+&nbsp;&nbsp;&nbsp;&nbsp;The development of this capstone project at Southern New Hampshire University (SNHU) represents the culmination of an academic journey that has equipped me with the skills, knowledge, and professional mindset necessary to excel in the field of computer science. Through challenging coursework and hands-on projects, I have increased my abilities in software design, algorithms, databases, security, and professional communication, while also developing a collaborative approach to problem-solving. This project serves as a comprehensive showcase of my technical proficiency and professional growth, solidifying the lessons learned and skills applied across key computer science domains.
+
+{{</paragraph>}}
+{{<break>}}
+{{<paragraph>}}
+
+&nbsp;&nbsp;&nbsp;&nbsp;The process of creating this project involved enhancing three distinct artifacts, each targeting a critical area of computer science: Software Design and Engineering, Algorithms and Data Structures, and Databases. These enhancements not only improved the functionality and efficiency of the original applications but also required me to navigate challenges, such as implementing security, optimizing algorithmic performance, and ensuring clear communication for diverse audiences. Supported by a detailed code review video, comprehensive documentation, and a professional self-assessment, this project reflects my ability to design, evaluate, and implement computing solutions that align with organizational goals and industry expectations.
+
+{{</paragraph>}}
+
 ## **Self-Assessment**
 
 {{<paragraph>}}
