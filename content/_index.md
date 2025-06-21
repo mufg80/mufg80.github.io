@@ -15,16 +15,18 @@ Email: [mufg80@hotmail.com](mailto:mufg80@hotmail.com)
 
 
 {{</paragraph>}}
+{{<break>}}
 {{<paragraph>}}
 
 &nbsp;&nbsp;&nbsp;&nbsp;Specific experiences throughout my academic program have significantly shaped my capabilities. For instance, studying reverse engineering provided critical insights into how programming languages are translated into machine instructions, enabling me to identify vulnerabilities like hardcoded passwords. Machine learning exploration enabled innovative problem-solving approaches, enhancing explicit instructions into leveraging data-driven pattern recognition. Additionally, learning Agile software development and Scrum methodologies emphasized the importance of disciplined development practices, from gathering accurate requirements through stakeholder interviews to delivering user stories efficiently. These experiences have reinforced my ability to tackle complex problems with a structured, industry-aligned approach.
 
 {{</paragraph>}}
-{{<paragraphnobreak>}}
+{{<break>}}
+{{<paragraph>}}
 
 &nbsp;&nbsp;&nbsp;&nbsp;My coursework also developed my proficiency across key computer science domains: security, software engineering, data structures and algorithms, and databases. As a hobbyist coder, I worked independently, writing code spontaneously. However, my degree program taught me the importance of collaboration in team environments, requiring clear and tailored communication to succeed. For example, in CS-319 UI/UX Design and Development, I interviewed my daughter, mother, and a colleague to gather feedback on an application. Each provided unique perspectives, highlighting different parts of the application that stood out to them, illustrating the need to adapt communication methods for different stakeholders. In technical domains, I gained the following insights:
 
-{{</paragraphnobreak>}}
+{{</paragraph>}}
 {{<bullet1>}} 
 
 Security: Reverse engineering revealed how easily exploits, such as hardcoded passwords, can be uncovered. I learned to adopt a defense-in-depth approach, incorporating principles like least privilege and trust boundaries to bolster application security.
@@ -45,11 +47,11 @@ Data Structures/Algorithms: Studying Big-O notation helped me understand the tra
 Databases: I gained an appreciation for the complexity of databases beyond simple serialization, learning the importance of Atomicity, Consistency, Isolation, and Durability (ACID) properties to ensure reliable data access and manipulation.
 
 {{</bullet1>}} 
-{{<paragraphnobreak>}}
+{{<paragraph>}}
 
 &nbsp;&nbsp;&nbsp;&nbsp;The three artifacts in my ePortfolio cohesively demonstrate the breadth of my technical abilities and align with the lessons learned throughout my program. Together, they illustrate my capacity to design, evaluate, and implement innovative computing solutions while adhering to industry standards.
 
-{{</paragraphnobreak>}}
+{{</paragraph>}}
 {{<bullet2>}} 
 
 Artifact 1: I transformed a C++ console application into a C# Graphical User Interface (GUI) application using the Model-View-ViewModel (MVVM) pattern, adding encryption, persistence, and advanced features. To ensure solution alignment with organizational goals and support informed decision-making, I developed tailored communication strategies for diverse audiences. The accompanying documentation was clear, technically accurate, and accessible to both technical and non-technical stakeholders, demonstrating my ability to communicate effectively in a professional context.
